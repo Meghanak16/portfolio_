@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color:lightsteelblue;
+}
+
+/* Header */
+header {
+    background-color:white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0066cc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section p, section ul {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    background-color: #f4f4f9;
+    padding: 15px;
+    border-left: 4px solid #0066cc;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+/* Contact Links */
+#contact p {
+    font-size: 1rem;
+    color: #0066cc;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    color: #0066cc;
+}
+
+/* Hover and Transition Effects */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffe066;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+    section h2 {
+        font-size: 1.8rem;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+    </style>
+
+    <!-- Header Section -->
+    <header>
+        <h1>MEGHANA</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <img src="WhatsApp Image 2024-12-09 at 22.20.27_dcc5224e.jpg" alt="Meghana's Photo"  style="width: 200px; height: 200px; display: block; margin: 0 auto 20px; object-fit: cover;">
+        <h2>About Me</h2>
+        <p>"Hello! I'm Meghana, pursuing Computer Science Engineering at  Vivekananda College Of Engineering and Technology. I've always been fascinated by technology and software development, and I'm excited to start my journey in this field. So far, I've learned the basics of programming languages like C, C++, HTML and CSS and I'm looking forward to exploring more in web development. In my free time, I enjoy tackling coding challenges to build my skills and stay engaged."</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor of Engineering in Computer Science Engineering</strong><br> Vivekananda College Of Engineering and Technology, 2026</li>
+            <li><strong>PUC </strong><br> Vivekananda PU College Nehru Nagar, Puttur, 2022</li>
+            <li><strong>High School </strong><br> Pragathi English Medium High School, Kaniyoor, 2020</li>
+
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2> Skills</h2>
+        <ul>
+            <li>Technical Skills: C,C++ ,HTML , CSS.</li>
+            <li>Soft Skills: Communication Skill, Teamwork, Collaboration and Creativity.</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>Sign Language Conversion into Text and Speech</h3>
+            <p>Developed a system that converts sign language gestures into text and speech, using image processing and machine learning.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: meghanakparla@gmail.com</p>
+        <p>LinkedIn: <a href=https://www.linkedin.com/in/meghanaa-rai-45a123324>https://linkedin.com/in/meghanaa-rai-45a123324</a></p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Meghana. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
